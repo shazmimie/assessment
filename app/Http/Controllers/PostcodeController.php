@@ -48,7 +48,7 @@ class PostcodeController extends Controller
         return Response::json($pcode);
 
         $getFields = Postcode::where('postcode', $request->get('postcode'))->get(['state_id']);
-    return json_encode($getFields[0]);
+        return json_encode($getFields[0]);
     }
 
 

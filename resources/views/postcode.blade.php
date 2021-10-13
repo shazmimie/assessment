@@ -8,6 +8,12 @@
         <div class="p-2 w-100 bd-highlight">
             <br>
             <h2>Postcode</h2>
+
+        </div>
+        <div class="p-2 flex-shrink-0 bd-highlight">
+            <button class="btn btn-success" id="btn-add">
+                Add Postcode
+            </button>
         </div>
         <div class="p-2 flex-shrink-0 bd-highlight">
 

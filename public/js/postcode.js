@@ -1,19 +1,19 @@
 jQuery(document).ready(function($){
 
     //----- Open model CREATE -----//
-        //jQuery('#btn-add').click(function () {
-        //jQuery('#btn-save').val("add");
+        jQuery('#btn-add').click(function () {
+        jQuery('#btn-save').val("add");
         jQuery('#postcodeForm').trigger("reset");
         jQuery('#formModal').modal('show');
     });
 
     // CREATE
-   /* $("#btn-save").click(function (e) {
+   $("#btn-save").click(function (e) {
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': jQuery('meta[name="csrf-token"]').attr('content')
             }
-        });*/
+        });
         e.preventDefault();
         var formData = {
            
